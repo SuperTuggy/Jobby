@@ -1,72 +1,30 @@
-# Jobby
+# 💼 Jobby
 
-A local tool for generating tailored resumes from job postings and tracking applications.
-
----
-
-## Requirements
-
-- Python 3.10+
-- pip
-- A PDF resume
-- API keys for:
-  - Tavily
-  - Google Generative AI (Gemini)
+**Jobby** is a local automation tool designed to take the soul-crushing work out of job hunting. It searches for relevant roles, generates tailored resumes using Gemini AI, and provides a sleek UI to track your application progress.
 
 ---
 
-## Setup
+## 🚀 Features
+
+* **Automated Search:** Uses Tavily to scout the web for job postings based on your preferences.
+* **AI Tailoring:** Leverages Google Gemini to customize your base resume for specific job descriptions.
+* **Application Tracker:** A built-in GUI to manage your pipeline, launch URLs, and view generated PDFs.
+* **State Management:** Keeps track of processed jobs and your application status locally.
+
+---
+
+## 🛠️ Requirements
+
+- **Python:** 3.10 or higher
+- **Base Resume:** A standard version of your resume in PDF format.
+- **API Keys:** - [Tavily API](https://tavily.com/) (for web searching)
+    - [Google AI Studio](https://aistudio.google.com/) (for Gemini LLM)
+
+---
+
+## ⚙️ Setup
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/SuperTuggy/Jobby.git
+git clone [https://github.com/SuperTuggy/Jobby.git](https://github.com/SuperTuggy/Jobby.git)
 cd Jobby
-2. Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate
-
-3. Install dependencies
-pip install -r requirements.txt
-
-4. Set API keys
-export TAVILY_API_KEY="your_tavily_key"
-export GOOGLE_API_KEY="your_google_key"
-
-Running the generator
-
-This step searches for jobs and generates tailored resumes.
-
-python generator.py
-
-
-You will be prompted for:
-
-Job titles (comma-separated)
-
-Remote vs in-person preference
-
-Location (if in-person)
-
-A base resume PDF
-
-Generated resumes are saved under the resumes/ directory.
-Job state is saved in processed_jobs.json.
-
-Running the tracker UI
-
-This step launches a simple GUI for tracking jobs.
-
-python main.py
-
-
-You can:
-
-Open job postings in your browser
-
-Open generated resumes
-
-Mark jobs as applied
-
-Archive jobs (hidden from view)
-
-State is saved automatically.
