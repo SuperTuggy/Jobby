@@ -14,8 +14,8 @@ from tkinter import Tk, filedialog, simpledialog, messagebox
 # CONFIG (NO PERSONAL DATA)
 # =====================================================
 
-TAVILY_API_KEY = "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"
-GOOGLE_API_KEY = "AIzaSyA2H0FjL2qlwPsG5MQkgV0BqxI5bnb4K4c"
+TAVILY_API_KEY = "INSERT YOUR API KEY"
+GOOGLE_API_KEY = "INSERT YOUR API KEY"
 
 OUTPUT_ROOT = "resumes"
 LOG_FILE = "generation.log"
