@@ -1,0 +1,4 @@
+pdfplumber
+weasyprint
+tavily-python
+google-generativeai
