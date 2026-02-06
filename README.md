@@ -1,35 +1,35 @@
-README.md
 
-Clone the repository
+# Jobby
 
-git clone https://github.com/SuperTuggy/Jobby
+## How to run this project
 
-cd jobby
+### Clone the repository
 
-Create a virtual environment
+    git clone https://github.com/SuperTuggy/Jobby
+    cd jobby
 
-Windows:
+### Create a virtual environment
 
-python -m venv venv
+**Windows**
 
-venv\Scripts\activate
+    python -m venv venv
+    venv\Scripts\activate
 
-macOS / Linux:
+**macOS / Linux**
 
-python3 -m venv venv
+    python3 -m venv venv
+    source venv/bin/activate
 
-source venv/bin/activate
+### Install requirements
 
-Install requirements
+    pip install -r requirements.txt
 
-pip install -r requirements.txt
-
-Run the program:
+### Run the program
 
 Run the resume generator:
 
-python main.py
+    python main.py
 
 Run the job tracker UI:
 
-python job_tracker_ui.py
+    python job_tracker_ui.py
