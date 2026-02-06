@@ -1,0 +1,9 @@
+# Python virtual environment
+venv/
+
+# Generated / runtime files
+generation.log
+processed_jobs.json
+
+# Sensitive or local-only data
+resumes/
