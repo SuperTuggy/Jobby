@@ -1,22 +1,23 @@
 README.md
 
-How to run this project
-
 Clone the repository
 
-git clone <REPO_URL>
-cd <REPO_NAME>
+git clone https://github.com/SuperTuggy/Jobby
+
+cd jobby
 
 Create a virtual environment
 
 Windows:
 
 python -m venv venv
+
 venv\Scripts\activate
 
 macOS / Linux:
 
 python3 -m venv venv
+
 source venv/bin/activate
 
 Install requirements
